@@ -39,18 +39,18 @@
 
 | Запуск | Среда | Тип |
 | ------ | ----- | --- |
-| SRR10408671 | PN | WT | 
-| SRR10408672 | PN | WT |
-| SRR10408673 | PN | WT |
-| SRR10408674 | PN | &Delta;&Delta; |
-| SRR10408675 | PN | &Delta;&Delta; |
-| SRR10408676 | PN | &Delta;&Delta; |
-| SRR10408683 | NPN | WT |
-| SRR10408684 | NPN | WT |
-| SRR10408685 | NPN | WT |
-| SRR10408686 | NPN | &Delta;&Delta; |
-| SRR10408687 | NPN | &Delta;&Delta; |
-| SRR10408688 | NPN | &Delta;&Delta; |
+| [SRR10408671](https://www.ncbi.nlm.nih.gov/sra/SRX7106917) | PN | WT | 
+| [SRR10408672](https://www.ncbi.nlm.nih.gov/sra/SRX7106918) | PN | WT |
+| [SRR10408673](https://www.ncbi.nlm.nih.gov/sra/SRX7106919) | PN | WT |
+| [SRR10408674](https://www.ncbi.nlm.nih.gov/sra/SRX7106920) | PN | &Delta;&Delta; |
+| [SRR10408675](https://www.ncbi.nlm.nih.gov/sra/SRX7106921) | PN | &Delta;&Delta; |
+| [SRR10408676](https://www.ncbi.nlm.nih.gov/sra/SRX7106922) | PN | &Delta;&Delta; |
+| [SRR10408683](https://www.ncbi.nlm.nih.gov/sra/SRX7106929) | NPN | WT |
+| [SRR10408684](https://www.ncbi.nlm.nih.gov/sra/SRX7106930) | NPN | WT |
+| [SRR10408685](https://www.ncbi.nlm.nih.gov/sra/SRX7106931) | NPN | WT |
+| [SRR10408686](https://www.ncbi.nlm.nih.gov/sra/SRX7106932) | NPN | &Delta;&Delta; |
+| [SRR10408687](https://www.ncbi.nlm.nih.gov/sra/SRX7106933) | NPN | &Delta;&Delta; |
+| [SRR10408688](https://www.ncbi.nlm.nih.gov/sra/SRX7106934) | NPN | &Delta;&Delta; |
 
 **Инструменты**
 * sra-toolkit (v. 3.4.1)
