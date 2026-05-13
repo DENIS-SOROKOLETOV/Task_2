@@ -26,7 +26,6 @@
 
 ## **Материалы и методы**
 
-
 ### **RNA-Seq**
 
 **Набор данных**
@@ -81,4 +80,6 @@ conda install bioconda::fastqc
 ```bash
 conda install bioconda::subread
 ```
-* [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome) 
+* [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
+
+### **WGBS**
