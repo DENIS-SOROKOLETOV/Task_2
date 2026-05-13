@@ -4,7 +4,7 @@ BASE="/mnt/f/Data"
 REF="/mnt/d/BioInf/Task_2/Reference_genome"
 OUTPUT="/mnt/d/BioInf/Task_2/Alignment_results"
 
-for suffix in 71 72 73 74 75 76 84 85 86 87 88; do
+for suffix in 71 72 73 74 75 76 83 84 85 86 87 88; do
   s="SRR104086${suffix}"
   mkdir -p "${OUTPUT}/${s}"
   echo "Выравнивание файлов эксперимента ${s}"
