@@ -1,0 +1,5 @@
+index	coefficient
+1	Intercept
+2	genotype_DoubleMutant_vs_WT
+3	condition_NPN_vs_PN
+4	genotypeDoubleMutant.conditionNPN

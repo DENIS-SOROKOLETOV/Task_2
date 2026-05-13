@@ -1,0 +1,251 @@
+contrast_id	contrast_title	rank_by_padj	Geneid	gene_id	locus_tag	product	padj	log2FoldChange
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	1	gene:FGSG_00036	FGSG_00036	FGSG_00036	uncharacterized protein	0	12.8964802139889
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	2	gene:FGSG_00043	FGSG_00043	FGSG_00043	uncharacterized protein	0	7.8403981433968
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	3	gene:FGSG_00044	FGSG_00044	FGSG_00044	uncharacterized protein	0	9.33273380694131
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	4	gene:FGSG_00046	FGSG_00046	FGSG_00046	uncharacterized protein	0	9.60286841622315
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	5	gene:FGSG_00050	FGSG_00050	FGSG_00050	uncharacterized protein	0	7.23942069836403
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	6	gene:FGSG_00071	FGSG_00071	FGSG_00071	uncharacterized protein	0	10.9142179924321
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	7	gene:FGSG_00136	FGSG_00136	FGSG_00136	uncharacterized protein	0	8.43948233856686
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	8	gene:FGSG_00192	FGSG_00192	FGSG_00192	cerevisin precursor	0	2.71931757940769
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	9	gene:FGSG_00278	FGSG_00278	FGSG_00278	biotin synthase	0	-2.84773230507755
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	10	gene:FGSG_00330	FGSG_00330	FGSG_00330	acetyl-coenzyme A synthetase	0	3.12267399496853
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	11	gene:FGSG_00554	FGSG_00554	FGSG_00554	uncharacterized protein	0	4.73611945195851
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	12	gene:FGSG_00620	FGSG_00620	FGSG_00620	ammonium transporter MEP2	0	4.34994754764268
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	13	gene:FGSG_00631	FGSG_00631	FGSG_00631	40S ribosomal protein S8-B	0	-4.71968638004851
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	14	gene:FGSG_00633	FGSG_00633	FGSG_00633	uncharacterized protein	0	3.28882297338188
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	15	gene:FGSG_00773	FGSG_00773	FGSG_00773	uncharacterized protein	0	5.12933369645025
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	16	gene:FGSG_00798	FGSG_00798	FGSG_00798	uncharacterized protein	0	-4.06997415554777
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	17	gene:FGSG_00802	FGSG_00802	FGSG_00802	uncharacterized protein	0	-4.17747312764213
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	18	gene:FGSG_00840	FGSG_00840	FGSG_00840	uncharacterized protein	0	4.13880737199061
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	19	gene:FGSG_00845	FGSG_00845	FGSG_00845	60S ribosomal protein L15	0	-3.80663230342577
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	20	gene:FGSG_01016	FGSG_01016	FGSG_01016	uncharacterized protein	0	-4.74848113596889
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	21	gene:FGSG_01021	FGSG_01021	FGSG_01021	uncharacterized protein	0	-5.21366631738151
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	22	gene:FGSG_01049	FGSG_01049	FGSG_01049	uncharacterized protein	0	3.9024580188414
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	23	gene:FGSG_01154	FGSG_01154	FGSG_01154	60S ribosomal protein L9-B	0	-4.03491904391996
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	24	gene:FGSG_01195	FGSG_01195	FGSG_01195	uncharacterized protein	0	-3.94605159154025
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	25	gene:FGSG_01230	FGSG_01230	FGSG_01230	phosphate carrier protein 2	0	7.11777114032004
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	26	gene:FGSG_01238	FGSG_01238	FGSG_01238	uncharacterized protein	0	-4.52864372998004
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	27	gene:FGSG_01278	FGSG_01278	FGSG_01278	uncharacterized protein	0	-3.5541775836993
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	28	gene:FGSG_01433	FGSG_01433	FGSG_01433	glutamate synthase precursor	0	4.04150542020154
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	29	gene:FGSG_01496	FGSG_01496	FGSG_01496	uncharacterized protein	0	4.14308898975396
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	30	gene:FGSG_01504	FGSG_01504	FGSG_01504	60S ribosomal protein L31	0	-3.96910925800977
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	31	gene:FGSG_01516	FGSG_01516	FGSG_01516	60S ribosomal protein L20	0	-3.91615003562655
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	32	gene:FGSG_01956	FGSG_01956	FGSG_01956	uncharacterized protein	0	-4.61339302627757
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	33	gene:FGSG_02022	FGSG_02022	FGSG_02022	1,3-beta-glucanosyltransferase gel4 precursor	0	3.10437391196915
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	34	gene:FGSG_02075	FGSG_02075	FGSG_02075	uncharacterized protein	0	-4.76680460374253
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	35	gene:FGSG_02077	FGSG_02077	FGSG_02077	uncharacterized protein	0	-2.52744169652753
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	36	gene:FGSG_02094	FGSG_02094	FGSG_02094	uncharacterized protein	0	6.91628044630552
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	37	gene:FGSG_02099	FGSG_02099	FGSG_02099	60S ribosomal protein L16	0	-3.53900366120651
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	38	gene:FGSG_02271	FGSG_02271	FGSG_02271	uncharacterized protein	0	10.9755584287392
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	39	gene:FGSG_02272	FGSG_02272	FGSG_02272	uncharacterized protein	0	6.32312460277313
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	40	gene:FGSG_02322	FGSG_02322	FGSG_02322	uncharacterized protein	0	6.24237839585284
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	41	gene:FGSG_02323	FGSG_02323	FGSG_02323	uncharacterized protein	0	4.89619234476025
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	42	gene:FGSG_02364	FGSG_02364	FGSG_02364	uncharacterized protein	0	4.19491523622252
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	43	gene:FGSG_02503	FGSG_02503	FGSG_02503	uncharacterized protein	0	-3.83512477131035
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	44	gene:FGSG_02541	FGSG_02541	FGSG_02541	40S ribosomal protein S14	0	-3.95807466164867
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	45	gene:FGSG_02577	FGSG_02577	FGSG_02577	uncharacterized protein	0	4.39239392083762
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	46	gene:FGSG_02588	FGSG_02588	FGSG_02588	40S ribosomal protein S19	0	-4.39623355685538
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	47	gene:FGSG_02697	FGSG_02697	FGSG_02697	uncharacterized protein	0	3.79554565937045
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	48	gene:FGSG_02753	FGSG_02753	FGSG_02753	uncharacterized protein	0	5.06485235297063
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	49	gene:FGSG_02901	FGSG_02901	FGSG_02901	uncharacterized protein	0	3.22174748176662
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	50	gene:FGSG_03270	FGSG_03270	FGSG_03270	uncharacterized protein	0	5.94433697852156
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	1	gene:FGSG_00036	FGSG_00036	FGSG_00036	uncharacterized protein	0	12.6335215954152
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	2	gene:FGSG_00043	FGSG_00043	FGSG_00043	uncharacterized protein	0	7.76316392180787
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	3	gene:FGSG_00044	FGSG_00044	FGSG_00044	uncharacterized protein	0	9.61731653354231
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	4	gene:FGSG_00046	FGSG_00046	FGSG_00046	uncharacterized protein	0	9.83298823801782
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	5	gene:FGSG_00050	FGSG_00050	FGSG_00050	uncharacterized protein	0	6.95125995849414
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	6	gene:FGSG_00071	FGSG_00071	FGSG_00071	uncharacterized protein	0	9.94003895664741
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	7	gene:FGSG_00136	FGSG_00136	FGSG_00136	uncharacterized protein	0	9.12378895331631
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	8	gene:FGSG_00278	FGSG_00278	FGSG_00278	biotin synthase	0	-3.03564901765033
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	9	gene:FGSG_00330	FGSG_00330	FGSG_00330	acetyl-coenzyme A synthetase	0	2.78687392566522
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	10	gene:FGSG_00415	FGSG_00415	FGSG_00415	uncharacterized protein	0	-2.89170704276069
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	11	gene:FGSG_00620	FGSG_00620	FGSG_00620	ammonium transporter MEP2	0	4.39199179401654
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	12	gene:FGSG_00631	FGSG_00631	FGSG_00631	40S ribosomal protein S8-B	0	-5.23271220060913
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	13	gene:FGSG_00633	FGSG_00633	FGSG_00633	uncharacterized protein	0	3.50777155887183
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	14	gene:FGSG_00671	FGSG_00671	FGSG_00671	40S ribosomal protein S11	0	-4.80939730138674
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	15	gene:FGSG_00773	FGSG_00773	FGSG_00773	uncharacterized protein	0	5.22057703295417
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	16	gene:FGSG_00798	FGSG_00798	FGSG_00798	uncharacterized protein	0	-4.54586942384199
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	17	gene:FGSG_00802	FGSG_00802	FGSG_00802	uncharacterized protein	0	-4.63074960300996
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	18	gene:FGSG_00845	FGSG_00845	FGSG_00845	60S ribosomal protein L15	0	-4.3720380549151
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	19	gene:FGSG_01016	FGSG_01016	FGSG_01016	uncharacterized protein	0	-5.10793369632487
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	20	gene:FGSG_01021	FGSG_01021	FGSG_01021	uncharacterized protein	0	-5.64658514005794
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	21	gene:FGSG_01049	FGSG_01049	FGSG_01049	uncharacterized protein	0	4.29143291255987
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	22	gene:FGSG_01154	FGSG_01154	FGSG_01154	60S ribosomal protein L9-B	0	-4.57507146378848
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	23	gene:FGSG_01230	FGSG_01230	FGSG_01230	phosphate carrier protein 2	0	6.43276635270746
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	24	gene:FGSG_01238	FGSG_01238	FGSG_01238	uncharacterized protein	0	-5.19105320548711
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	25	gene:FGSG_01278	FGSG_01278	FGSG_01278	uncharacterized protein	0	-3.80357670231478
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	26	gene:FGSG_01433	FGSG_01433	FGSG_01433	glutamate synthase precursor	0	4.1974445416206
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	27	gene:FGSG_01496	FGSG_01496	FGSG_01496	uncharacterized protein	0	4.70097254852866
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	28	gene:FGSG_01504	FGSG_01504	FGSG_01504	60S ribosomal protein L31	0	-4.38201851748971
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	29	gene:FGSG_01509	FGSG_01509	FGSG_01509	40S ribosomal protein S2	0	-4.45704141370199
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	30	gene:FGSG_01516	FGSG_01516	FGSG_01516	60S ribosomal protein L20	0	-4.41584481301656
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	31	gene:FGSG_01956	FGSG_01956	FGSG_01956	uncharacterized protein	0	-5.01469903074274
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	32	gene:FGSG_02022	FGSG_02022	FGSG_02022	1,3-beta-glucanosyltransferase gel4 precursor	0	3.51463447433709
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	33	gene:FGSG_02075	FGSG_02075	FGSG_02075	uncharacterized protein	0	-4.84512717919087
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	34	gene:FGSG_02077	FGSG_02077	FGSG_02077	uncharacterized protein	0	-2.84885207154258
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	35	gene:FGSG_02094	FGSG_02094	FGSG_02094	uncharacterized protein	0	6.66328285287351
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	36	gene:FGSG_02099	FGSG_02099	FGSG_02099	60S ribosomal protein L16	0	-3.85266240437983
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	37	gene:FGSG_02271	FGSG_02271	FGSG_02271	uncharacterized protein	0	10.4228242426929
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	38	gene:FGSG_02272	FGSG_02272	FGSG_02272	uncharacterized protein	0	6.67660538603434
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	39	gene:FGSG_02322	FGSG_02322	FGSG_02322	uncharacterized protein	0	4.59840197890014
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	40	gene:FGSG_02323	FGSG_02323	FGSG_02323	uncharacterized protein	0	3.57918131533864
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	41	gene:FGSG_02364	FGSG_02364	FGSG_02364	uncharacterized protein	0	3.92807617223726
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	42	gene:FGSG_02493	FGSG_02493	FGSG_02493	uncharacterized protein	0	-4.91595319748393
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	43	gene:FGSG_02503	FGSG_02503	FGSG_02503	uncharacterized protein	0	-4.46794822577497
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	44	gene:FGSG_02523	FGSG_02523	FGSG_02523	uncharacterized protein	0	-3.96160318874386
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	45	gene:FGSG_02541	FGSG_02541	FGSG_02541	40S ribosomal protein S14	0	-4.33936046866992
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	46	gene:FGSG_02577	FGSG_02577	FGSG_02577	uncharacterized protein	0	4.5467698781163
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	47	gene:FGSG_02588	FGSG_02588	FGSG_02588	40S ribosomal protein S19	0	-4.8792762777896
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	48	gene:FGSG_02672	FGSG_02672	FGSG_02672	uncharacterized protein	0	10.1188149204008
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	49	gene:FGSG_02697	FGSG_02697	FGSG_02697	uncharacterized protein	0	4.33741660539618
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	50	gene:FGSG_02753	FGSG_02753	FGSG_02753	uncharacterized protein	0	4.26018810383067
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	1	gene:FGSG_10766	FGSG_10766	FGSG_10766	uncharacterized protein	8.43813655482311e-77	2.74613276614362
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	2	gene:FGSG_06751	FGSG_06751	FGSG_06751	4-aminobutyrate aminotransferase	1.28833559062148e-19	1.09396843255249
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	3	gene:FGSG_11585	FGSG_11585	FGSG_11585	cytochrome P450 55A2	2.1882570563128e-14	1.42211521794121
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	4	gene:FGSG_02087	FGSG_02087	FGSG_02087	uncharacterized protein	3.73915971393378e-14	0.619325718543141
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	5	gene:FGSG_10598	FGSG_10598	FGSG_10598	uncharacterized protein	2.06654455771544e-06	-0.399780699623215
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	6	gene:FGSG_04709	FGSG_04709	FGSG_04709	uncharacterized protein	4.36299909364412e-06	-1.46834749169192
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	7	gene:FGSG_01015	FGSG_01015	FGSG_01015	heat shock protein 78	5.83224568991786e-06	-0.784736228796946
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	8	gene:FGSG_01421	FGSG_01421	FGSG_01421	DNA replication protein YHM2	8.88034519024249e-06	0.421492741679674
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	9	gene:FGSG_03751	FGSG_03751	FGSG_03751	uncharacterized protein	9.5488940932197e-06	-0.854703975059765
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	10	gene:FGSG_06896	FGSG_06896	FGSG_06896	uncharacterized protein	9.5488940932197e-06	0.82687617693044
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	11	gene:FGSG_08172	FGSG_08172	FGSG_08172	uncharacterized protein	2.06908690525565e-05	0.544731844492099
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	12	gene:FGSG_05784	FGSG_05784	FGSG_05784	uncharacterized protein	2.56091286733052e-05	0.509621032178333
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	13	gene:FGSG_06328	FGSG_06328	FGSG_06328	xylulose-5-phosphate phosphoketolase	3.42513421176021e-05	-0.389799365182834
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	14	gene:FGSG_06692	FGSG_06692	FGSG_06692	uncharacterized protein	4.29938576093652e-05	-0.667325837301768
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	15	gene:FGSG_01858	FGSG_01858	FGSG_01858	uncharacterized protein	4.30217814357402e-05	-0.799385411189522
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	16	gene:FGSG_05133	FGSG_05133	FGSG_05133	uncharacterized protein	4.30217814357402e-05	-0.694121829499871
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	17	gene:FGSG_09162	FGSG_09162	FGSG_09162	uncharacterized protein	4.30217814357402e-05	0.370530089482439
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	18	gene:FGSG_12292	FGSG_12292	FGSG_12292	uncharacterized protein	4.30217814357402e-05	0.567306305796432
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	19	gene:FGSG_07204	FGSG_07204	FGSG_07204	uncharacterized protein	6.6499161620361e-05	-0.82378473635941
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	20	gene:FGSG_07671	FGSG_07671	FGSG_07671	uncharacterized protein	6.6499161620361e-05	-0.7392968606676
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	21	gene:FGSG_10969	FGSG_10969	FGSG_10969	uncharacterized protein	9.32709286810259e-05	-0.756773697198248
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	22	gene:FGSG_04088	FGSG_04088	FGSG_04088	uncharacterized protein	0.000126553256119274	0.334725650420936
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	23	gene:FGSG_00150	FGSG_00150	FGSG_00150	uncharacterized protein	0.000133045966190175	-1.35849970568217
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	24	gene:FGSG_02783	FGSG_02783	FGSG_02783	sterol 24-C-methyltransferase	0.00013370510013934	0.297490304103824
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	25	gene:FGSG_13464	FGSG_13464	FGSG_13464	uncharacterized protein	0.000180180263130927	-0.985712236519053
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	26	gene:FGSG_14038	FGSG_14038	FGSG_14038	uncharacterized protein	0.000180180263130927	-0.93691453070978
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	27	gene:FGSG_06613	FGSG_06613	FGSG_06613	uncharacterized protein	0.000242218577086023	-0.580637978037949
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	28	gene:FGSG_10922	FGSG_10922	FGSG_10922	uncharacterized protein	0.000271223602670186	-0.366999751677169
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	29	gene:FGSG_02551	FGSG_02551	FGSG_02551	uncharacterized protein	0.000277858988453638	-1.29452603297255
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	30	gene:FGSG_02789	FGSG_02789	FGSG_02789	uncharacterized protein	0.000277858988453638	0.416371785299686
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	31	gene:FGSG_01417	FGSG_01417	FGSG_01417	O-acetylhomoserine	0.000297859992420958	0.486161296201469
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	32	gene:FGSG_01158	FGSG_01158	FGSG_01158	30 kDa heat shock protein	0.000378359426403746	-0.605975644578484
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	33	gene:FGSG_09066	FGSG_09066	FGSG_09066	uncharacterized protein	0.000407322635824971	-0.60841395542662
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	34	gene:FGSG_12776	FGSG_12776	FGSG_12776	uncharacterized protein	0.000480214810113965	-0.794021862495825
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	35	gene:FGSG_01948	FGSG_01948	FGSG_01948	uncharacterized protein	0.00048025546594273	-0.395993343905069
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	36	gene:FGSG_03378	FGSG_03378	FGSG_03378	uncharacterized protein	0.00048025546594273	-0.628688291600504
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	37	gene:FGSG_06553	FGSG_06553	FGSG_06553	uncharacterized protein	0.000564329085202772	-1.286391524216
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	38	gene:FGSG_04271	FGSG_04271	FGSG_04271	uncharacterized protein	0.000733633055868873	-0.496963617572494
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	39	gene:FGSG_07890	FGSG_07890	FGSG_07890	uncharacterized protein	0.000733633055868873	0.881565810825464
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	40	gene:FGSG_07174	FGSG_07174	FGSG_07174	NADP-specific glutamate dehydrogenase	0.000895585305165189	-0.567174510665898
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	41	gene:FGSG_06069	FGSG_06069	FGSG_06069	uncharacterized protein	0.00099569756047647	-0.404195875270463
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	42	gene:FGSG_12745	FGSG_12745	FGSG_12745	heat shock protein HSP98	0.00101322876468732	-1.11310589130471
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	43	gene:FGSG_05898	FGSG_05898	FGSG_05898	uncharacterized protein	0.00105460768787191	-0.553636720598508
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	44	gene:FGSG_07908	FGSG_07908	FGSG_07908	uncharacterized protein	0.00116182007365681	-0.255378532463962
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	45	gene:FGSG_01084	FGSG_01084	FGSG_01084	uncharacterized protein	0.0011685415452294	-0.58099454538748
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	46	gene:FGSG_04370	FGSG_04370	FGSG_04370	uncharacterized protein	0.0011685415452294	-0.421169447470659
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	47	gene:FGSG_13427	FGSG_13427	FGSG_13427	uncharacterized protein	0.00128167546934448	0.810219990910531
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	48	gene:FGSG_09321	FGSG_09321	FGSG_09321	acetyl-CoA acetyltransferase IB	0.0013641791182571	0.324956437839596
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	49	gene:FGSG_05697	FGSG_05697	FGSG_05697	uncharacterized protein	0.00137656996618461	-1.05268562277537
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	50	gene:FGSG_06367	FGSG_06367	FGSG_06367	uncharacterized protein	0.00137656996618461	-0.40555911719533
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	1	gene:FGSG_00554	FGSG_00554	FGSG_00554	uncharacterized protein	3.25834713803353e-202	-3.1092025705823
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	2	gene:FGSG_06480	FGSG_06480	FGSG_06480	uncharacterized protein	2.22893649530184e-145	2.94487284892641
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	3	gene:FGSG_08081	FGSG_08081	FGSG_08081	uncharacterized protein	6.3106897798803e-113	-2.07991702350024
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	4	gene:FGSG_09595	FGSG_09595	FGSG_09595	uncharacterized protein	1.76704185116523e-97	-4.56622869390655
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	5	gene:FGSG_02783	FGSG_02783	FGSG_02783	sterol 24-C-methyltransferase	1.92522720293471e-80	1.17652403176452
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	6	gene:FGSG_08079	FGSG_08079	FGSG_08079	uncharacterized protein	1.35488281105914e-79	-1.78795635332891
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	7	gene:FGSG_08083	FGSG_08083	FGSG_08083	uncharacterized protein	2.33618032194988e-78	-2.12722588757862
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	8	gene:FGSG_02323	FGSG_02323	FGSG_02323	uncharacterized protein	4.35791319226533e-72	-1.47359708152337
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	9	gene:FGSG_11097	FGSG_11097	FGSG_11097	uncharacterized protein	1.02239046643096e-58	2.23126358382509
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	10	gene:FGSG_02322	FGSG_02322	FGSG_02322	uncharacterized protein	7.88671024840706e-54	-1.72080751731286
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	11	gene:FGSG_06184	FGSG_06184	FGSG_06184	acyl-CoA desaturase	2.81608864664286e-50	1.22335878109524
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	12	gene:FGSG_13756	FGSG_13756	FGSG_13756	uncharacterized protein	1.89089787601548e-48	1.97948863992226
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	13	gene:FGSG_08077	FGSG_08077	FGSG_08077	uncharacterized protein	2.550686431555e-42	-0.842218478238571
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	14	gene:FGSG_04694	FGSG_04694	FGSG_04694	uncharacterized protein	8.04660517425532e-42	1.73682308956237
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	15	gene:FGSG_00415	FGSG_00415	FGSG_00415	uncharacterized protein	6.74800547200156e-40	-0.883004841286718
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	16	gene:FGSG_03518	FGSG_03518	FGSG_03518	uncharacterized protein	6.07712438567194e-39	-1.28348490279653
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	17	gene:FGSG_02324	FGSG_02324	FGSG_02324	uncharacterized protein	5.53178523168821e-38	-2.71163431645732
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	18	gene:FGSG_09086	FGSG_09086	FGSG_09086	uncharacterized protein	1.41856096714744e-37	-2.37981800032741
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	19	gene:FGSG_00523	FGSG_00523	FGSG_00523	uncharacterized protein	1.29380479101241e-36	-1.38098220555216
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	20	gene:FGSG_11129	FGSG_11129	FGSG_11129	uncharacterized protein	2.6231829673182e-36	1.07598438157527
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	21	gene:FGSG_06482	FGSG_06482	FGSG_06482	uncharacterized protein	2.93899385964659e-36	3.46258436012657
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	22	gene:FGSG_08844	FGSG_08844	FGSG_08844	uncharacterized protein	2.36985021181512e-35	1.7291413408498
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	23	gene:FGSG_02615	FGSG_02615	FGSG_02615	uncharacterized protein	6.71747803991119e-35	-1.65270373838546
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	24	gene:FGSG_08596	FGSG_08596	FGSG_08596	uncharacterized protein	9.84133531466493e-34	0.844461213261468
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	25	gene:FGSG_03510	FGSG_03510	FGSG_03510	uncharacterized protein	7.19517716946994e-33	-0.995207481659223
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	26	gene:FGSG_02139	FGSG_02139	FGSG_02139	uncharacterized protein	1.11156406580658e-31	1.99029775132921
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	27	gene:FGSG_00588	FGSG_00588	FGSG_00588	uncharacterized protein	3.15644558160691e-31	0.899084240170234
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	28	gene:FGSG_02771	FGSG_02771	FGSG_02771	uncharacterized protein	5.51498978067388e-31	0.782962027615719
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	29	gene:FGSG_05740	FGSG_05740	FGSG_05740	sterol 24-C-methyltransferase	9.71799809368713e-31	1.6604540694246
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	30	gene:FGSG_00136	FGSG_00136	FGSG_00136	uncharacterized protein	1.46837741883715e-30	0.9758463246246
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	31	gene:FGSG_10132	FGSG_10132	FGSG_10132	uncharacterized protein	3.35645410223254e-30	0.796208331822472
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	32	gene:FGSG_02658	FGSG_02658	FGSG_02658	endoglucanase-5	9.29301386590194e-29	-0.923046146048814
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	33	gene:FGSG_02291	FGSG_02291	FGSG_02291	uncharacterized protein	3.13044838693802e-28	1.93547281372681
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	34	gene:FGSG_04693	FGSG_04693	FGSG_04693	uncharacterized protein	5.26063166385715e-28	1.48486727691875
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	35	gene:FGSG_02672	FGSG_02672	FGSG_02672	uncharacterized protein	4.3071456230322e-26	0.81509745128481
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	36	gene:FGSG_09088	FGSG_09088	FGSG_09088	uncharacterized protein	2.61224662295236e-25	-2.6767015939838
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	37	gene:FGSG_06842	FGSG_06842	FGSG_06842	uncharacterized protein	3.15261066039298e-24	0.508104777978253
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	38	gene:FGSG_00237	FGSG_00237	FGSG_00237	uncharacterized protein	2.00694125521867e-23	1.46444087399102
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	39	gene:FGSG_05594	FGSG_05594	FGSG_05594	uncharacterized protein	3.21333973215031e-23	-0.741994107327012
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	40	gene:FGSG_06328	FGSG_06328	FGSG_06328	xylulose-5-phosphate phosphoketolase	3.30063313137291e-23	-0.762328818480176
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	41	gene:FGSG_08647	FGSG_08647	FGSG_08647	uncharacterized protein	4.24517964936238e-23	3.1591880202602
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	42	gene:FGSG_07908	FGSG_07908	FGSG_07908	uncharacterized protein	5.50975743000361e-23	-0.629379205383075
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	43	gene:FGSG_04492	FGSG_04492	FGSG_04492	uncharacterized protein	1.39014285580146e-22	1.4488466080248
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	44	gene:FGSG_01000	FGSG_01000	FGSG_01000	cytochrome P450 51	2.05441339088764e-22	1.0831352264542
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	45	gene:FGSG_01733	FGSG_01733	FGSG_01733	uncharacterized protein	3.02287550409014e-22	1.17030765329589
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	46	gene:FGSG_00492	FGSG_00492	FGSG_00492	uncharacterized protein	4.43785146227991e-22	0.72030045338597
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	47	gene:FGSG_05950	FGSG_05950	FGSG_05950	uncharacterized protein	1.30221754987993e-21	0.63756043859316
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	48	gene:FGSG_07798	FGSG_07798	FGSG_07798	uncharacterized protein	3.48851574634848e-21	-0.825184672409762
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	49	gene:FGSG_09403	FGSG_09403	FGSG_09403	uncharacterized protein	9.03058037917119e-21	0.909093771219519
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	50	gene:FGSG_10991	FGSG_10991	FGSG_10991	uncharacterized protein	1.23071893251782e-20	-0.985187697781576
+C5_Interaction_effect	Интеракция genotype:condition	1	gene:FGSG_00554	FGSG_00554	FGSG_00554	uncharacterized protein	2.3969145281808e-101	-3.12091737397327
+C5_Interaction_effect	Интеракция genotype:condition	2	gene:FGSG_06480	FGSG_06480	FGSG_06480	uncharacterized protein	6.80209638286774e-47	2.7473632372084
+C5_Interaction_effect	Интеракция genotype:condition	3	gene:FGSG_11097	FGSG_11097	FGSG_11097	uncharacterized protein	7.18855063252083e-42	2.30468174063706
+C5_Interaction_effect	Интеракция genotype:condition	4	gene:FGSG_10766	FGSG_10766	FGSG_10766	uncharacterized protein	1.6824810108492e-40	-3.18774294513502
+C5_Interaction_effect	Интеракция genotype:condition	5	gene:FGSG_04694	FGSG_04694	FGSG_04694	uncharacterized protein	2.61980468215242e-29	1.95098197995703
+C5_Interaction_effect	Интеракция genotype:condition	6	gene:FGSG_13756	FGSG_13756	FGSG_13756	uncharacterized protein	1.04280190056905e-28	2.03939846187775
+C5_Interaction_effect	Интеракция genotype:condition	7	gene:FGSG_02323	FGSG_02323	FGSG_02323	uncharacterized protein	1.09565729175979e-24	-1.3170110294216
+C5_Interaction_effect	Интеракция genotype:condition	8	gene:FGSG_06751	FGSG_06751	FGSG_06751	4-aminobutyrate aminotransferase	4.7455525391124e-24	-1.48646350857214
+C5_Interaction_effect	Интеракция genotype:condition	9	gene:FGSG_02322	FGSG_02322	FGSG_02322	uncharacterized protein	3.39140138797149e-23	-1.6439764169527
+C5_Interaction_effect	Интеракция genotype:condition	10	gene:FGSG_00523	FGSG_00523	FGSG_00523	uncharacterized protein	3.59365969098125e-23	-1.46741511510751
+C5_Interaction_effect	Интеракция genotype:condition	11	gene:FGSG_00415	FGSG_00415	FGSG_00415	uncharacterized protein	3.68210036965614e-23	-0.936529780705927
+C5_Interaction_effect	Интеракция genotype:condition	12	gene:FGSG_02615	FGSG_02615	FGSG_02615	uncharacterized protein	4.14247952131569e-23	-1.63972828417796
+C5_Interaction_effect	Интеракция genotype:condition	13	gene:FGSG_08844	FGSG_08844	FGSG_08844	uncharacterized protein	7.60066163723387e-23	1.90620656985893
+C5_Interaction_effect	Интеракция genotype:condition	14	gene:FGSG_02783	FGSG_02783	FGSG_02783	sterol 24-C-methyltransferase	1.2461212475152e-22	0.8790337276607
+C5_Interaction_effect	Интеракция genotype:condition	15	gene:FGSG_02291	FGSG_02291	FGSG_02291	uncharacterized protein	4.109205269588e-20	2.14309333782692
+C5_Interaction_effect	Интеракция genotype:condition	16	gene:FGSG_11129	FGSG_11129	FGSG_11129	uncharacterized protein	1.3236400517034e-19	1.11080299183136
+C5_Interaction_effect	Интеракция genotype:condition	17	gene:FGSG_02139	FGSG_02139	FGSG_02139	uncharacterized protein	2.46433505318158e-19	2.19931198588313
+C5_Interaction_effect	Интеракция genotype:condition	18	gene:FGSG_05159	FGSG_05159	FGSG_05159	iron transport multicopper oxidase FET3 precursor	4.95674621666834e-19	1.47689893730213
+C5_Interaction_effect	Интеракция genotype:condition	19	gene:FGSG_08172	FGSG_08172	FGSG_08172	uncharacterized protein	4.31228061643667e-18	-1.49215461766066
+C5_Interaction_effect	Интеракция genotype:condition	20	gene:FGSG_03518	FGSG_03518	FGSG_03518	uncharacterized protein	8.71304708832548e-18	-1.20278560543816
+C5_Interaction_effect	Интеракция genotype:condition	21	gene:FGSG_12704	FGSG_12704	FGSG_12704	uncharacterized protein	1.13872548433932e-17	1.82590399419209
+C5_Interaction_effect	Интеракция genotype:condition	22	gene:FGSG_06184	FGSG_06184	FGSG_06184	acyl-CoA desaturase	2.41894671211185e-17	1.02876939038588
+C5_Interaction_effect	Интеракция genotype:condition	23	gene:FGSG_04693	FGSG_04693	FGSG_04693	uncharacterized protein	6.47731533272409e-17	1.45184324057334
+C5_Interaction_effect	Интеракция genotype:condition	24	gene:FGSG_06842	FGSG_06842	FGSG_06842	uncharacterized protein	6.47731533272409e-17	0.606582865339209
+C5_Interaction_effect	Интеракция genotype:condition	25	gene:FGSG_03510	FGSG_03510	FGSG_03510	uncharacterized protein	9.8289150471584e-17	-0.963624641502288
+C5_Interaction_effect	Интеракция genotype:condition	26	gene:FGSG_08596	FGSG_08596	FGSG_08596	uncharacterized protein	1.39543101777892e-16	0.840263781545519
+C5_Interaction_effect	Интеракция genotype:condition	27	gene:FGSG_05594	FGSG_05594	FGSG_05594	uncharacterized protein	2.18783062474422e-16	-0.829475461591203
+C5_Interaction_effect	Интеракция genotype:condition	28	gene:FGSG_10132	FGSG_10132	FGSG_10132	uncharacterized protein	2.18783062474422e-16	0.835511954068054
+C5_Interaction_effect	Интеракция genotype:condition	29	gene:FGSG_06612	FGSG_06612	FGSG_06612	uncharacterized protein	3.13865185993987e-15	1.50572384742645
+C5_Interaction_effect	Интеракция genotype:condition	30	gene:FGSG_02771	FGSG_02771	FGSG_02771	uncharacterized protein	8.69169847710824e-15	0.759277723563983
+C5_Interaction_effect	Интеракция genotype:condition	31	gene:FGSG_00492	FGSG_00492	FGSG_00492	uncharacterized protein	1.35872941046463e-14	0.833294373474626
+C5_Interaction_effect	Интеракция genotype:condition	32	gene:FGSG_08077	FGSG_08077	FGSG_08077	uncharacterized protein	5.90250690878929e-14	-0.682470757643846
+C5_Interaction_effect	Интеракция genotype:condition	33	gene:FGSG_03069	FGSG_03069	FGSG_03069	uncharacterized protein	6.37579940567392e-14	-1.26956714720417
+C5_Interaction_effect	Интеракция genotype:condition	34	gene:FGSG_09595	FGSG_09595	FGSG_09595	uncharacterized protein	6.37579940567392e-14	-3.80408975060906
+C5_Interaction_effect	Интеракция genotype:condition	35	gene:FGSG_04129	FGSG_04129	FGSG_04129	uncharacterized protein	1.07254222211899e-12	0.944375362427258
+C5_Interaction_effect	Интеракция genotype:condition	36	gene:FGSG_04213	FGSG_04213	FGSG_04213	uncharacterized protein	2.21789070531827e-12	0.774656342564757
+C5_Interaction_effect	Интеракция genotype:condition	37	gene:FGSG_00588	FGSG_00588	FGSG_00588	uncharacterized protein	2.51109910432753e-12	0.768902286946367
+C5_Interaction_effect	Интеракция genotype:condition	38	gene:FGSG_05950	FGSG_05950	FGSG_05950	uncharacterized protein	2.6767362612507e-12	0.669512567556022
+C5_Interaction_effect	Интеракция genotype:condition	39	gene:FGSG_06613	FGSG_06613	FGSG_06613	uncharacterized protein	4.72757509923942e-12	1.66264323967079
+C5_Interaction_effect	Интеракция genotype:condition	40	gene:FGSG_08081	FGSG_08081	FGSG_08081	uncharacterized protein	6.28843535871831e-12	-1.89385732618651
+C5_Interaction_effect	Интеракция genotype:condition	41	gene:FGSG_11099	FGSG_11099	FGSG_11099	uncharacterized protein	1.1157708619433e-11	1.66195760394973
+C5_Interaction_effect	Интеракция genotype:condition	42	gene:FGSG_05740	FGSG_05740	FGSG_05740	sterol 24-C-methyltransferase	1.34439828256132e-11	1.47281693081475
+C5_Interaction_effect	Интеракция genotype:condition	43	gene:FGSG_01733	FGSG_01733	FGSG_01733	uncharacterized protein	1.38358148435887e-11	1.19186910673619
+C5_Interaction_effect	Интеракция genotype:condition	44	gene:FGSG_00642	FGSG_00642	FGSG_00642	uncharacterized protein	1.80029623358917e-11	0.772114081330907
+C5_Interaction_effect	Интеракция genotype:condition	45	gene:FGSG_10089	FGSG_10089	FGSG_10089	uncharacterized protein	1.05006802546877e-10	0.475790424336904
+C5_Interaction_effect	Интеракция genotype:condition	46	gene:FGSG_10086	FGSG_10086	FGSG_10086	uncharacterized protein	1.39649085057913e-10	-0.959839023866421
+C5_Interaction_effect	Интеракция genotype:condition	47	gene:FGSG_09351	FGSG_09351	FGSG_09351	uncharacterized protein	9.09976733346572e-10	-1.50260113139711
+C5_Interaction_effect	Интеракция genotype:condition	48	gene:FGSG_05820	FGSG_05820	FGSG_05820	uncharacterized protein	5.68526891948152e-09	1.3528926131423
+C5_Interaction_effect	Интеракция genotype:condition	49	gene:FGSG_03442	FGSG_03442	FGSG_03442	uncharacterized protein	7.45618329930592e-09	-1.03322121863498
+C5_Interaction_effect	Интеракция genotype:condition	50	gene:FGSG_08199	FGSG_08199	FGSG_08199	uncharacterized protein	7.99905565135045e-09	-1.60300375764292
