@@ -1,0 +1,151 @@
+pathway_id	pathway_name
+fgr01100	Metabolic pathways
+fgr01110	Biosynthesis of secondary metabolites
+fgr01200	Carbon metabolism
+fgr01210	2-Oxocarboxylic acid metabolism
+fgr01212	Fatty acid metabolism
+fgr01230	Biosynthesis of amino acids
+fgr01232	Nucleotide metabolism
+fgr01250	Biosynthesis of nucleotide sugars
+fgr01240	Biosynthesis of cofactors
+fgr01310	Nitrogen cycle
+fgr01320	Sulfur cycle
+fgr00010	Glycolysis / Gluconeogenesis
+fgr00020	Citrate cycle (TCA cycle)
+fgr00030	Pentose phosphate pathway
+fgr00040	Pentose and glucuronate interconversions
+fgr00051	Fructose and mannose metabolism
+fgr00052	Galactose metabolism
+fgr00053	Ascorbate and aldarate metabolism
+fgr00500	Starch and sucrose metabolism
+fgr00620	Pyruvate metabolism
+fgr00630	Glyoxylate and dicarboxylate metabolism
+fgr00640	Propanoate metabolism
+fgr00650	Butanoate metabolism
+fgr00660	C5-Branched dibasic acid metabolism
+fgr00562	Inositol phosphate metabolism
+fgr00190	Oxidative phosphorylation
+fgr00710	Carbon fixation by Calvin cycle
+fgr00680	Methane metabolism
+fgr00910	Nitrogen metabolism
+fgr00920	Sulfur metabolism
+fgr00061	Fatty acid biosynthesis
+fgr00062	Fatty acid elongation
+fgr00071	Fatty acid degradation
+fgr00100	Steroid biosynthesis
+fgr00561	Glycerolipid metabolism
+fgr00564	Glycerophospholipid metabolism
+fgr00565	Ether lipid metabolism
+fgr00600	Sphingolipid metabolism
+fgr00590	Arachidonic acid metabolism
+fgr00591	Linoleic acid metabolism
+fgr00592	alpha-Linolenic acid metabolism
+fgr01040	Biosynthesis of unsaturated fatty acids
+fgr00230	Purine metabolism
+fgr00240	Pyrimidine metabolism
+fgr00250	Alanine, aspartate and glutamate metabolism
+fgr00260	Glycine, serine and threonine metabolism
+fgr00270	Cysteine and methionine metabolism
+fgr00280	Valine, leucine and isoleucine degradation
+fgr00290	Valine, leucine and isoleucine biosynthesis
+fgr00300	Lysine biosynthesis
+fgr00310	Lysine degradation
+fgr00220	Arginine biosynthesis
+fgr00330	Arginine and proline metabolism
+fgr00340	Histidine metabolism
+fgr00350	Tyrosine metabolism
+fgr00360	Phenylalanine metabolism
+fgr00380	Tryptophan metabolism
+fgr00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+fgr00410	beta-Alanine metabolism
+fgr00430	Taurine and hypotaurine metabolism
+fgr00440	Phosphonate and phosphinate metabolism
+fgr00450	Selenocompound metabolism
+fgr00460	Cyanoamino acid metabolism
+fgr00470	D-Amino acid metabolism
+fgr00480	Glutathione metabolism
+fgr00520	Amino sugar and nucleotide sugar metabolism
+fgr00541	Biosynthesis of various nucleotide sugars
+fgr00510	N-Glycan biosynthesis
+fgr00513	Various types of N-glycan biosynthesis
+fgr00515	Mannose type O-glycan biosynthesis
+fgr00514	Other types of O-glycan biosynthesis
+fgr00531	Glycosaminoglycan degradation
+fgr00563	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+fgr00603	Glycosphingolipid biosynthesis - globo and isoglobo series
+fgr00604	Glycosphingolipid biosynthesis - ganglio series
+fgr00511	Other glycan degradation
+fgr00730	Thiamine metabolism
+fgr00740	Riboflavin metabolism
+fgr00750	Vitamin B6 metabolism
+fgr00760	Nicotinate and nicotinamide metabolism
+fgr00770	Pantothenate and CoA biosynthesis
+fgr00780	Biotin metabolism
+fgr00785	Lipoic acid metabolism
+fgr00790	Folate biosynthesis
+fgr00670	One carbon pool by folate
+fgr00860	Porphyrin metabolism
+fgr00130	Ubiquinone and other terpenoid-quinone biosynthesis
+fgr00900	Terpenoid backbone biosynthesis
+fgr00909	Sesquiterpenoid and triterpenoid biosynthesis
+fgr00906	Carotenoid biosynthesis
+fgr00403	Indole diterpene alkaloid biosynthesis
+fgr00232	Caffeine metabolism
+fgr00311	Penicillin and cephalosporin biosynthesis
+fgr00332	Carbapenem biosynthesis
+fgr00261	Monobactam biosynthesis
+fgr00254	Aflatoxin biosynthesis
+fgr00999	Biosynthesis of various plant secondary metabolites
+fgr00791	Atrazine degradation
+fgr03020	RNA polymerase
+fgr03022	Basal transcription factors
+fgr03040	Spliceosome
+fgr03010	Ribosome
+fgr00970	Aminoacyl-tRNA biosynthesis
+fgr03013	Nucleocytoplasmic transport
+fgr03015	mRNA surveillance pathway
+fgr03008	Ribosome biogenesis in eukaryotes
+fgr03060	Protein export
+fgr04141	Protein processing in endoplasmic reticulum
+fgr04130	SNARE interactions in vesicular transport
+fgr04120	Ubiquitin mediated proteolysis
+fgr04122	Sulfur relay system
+fgr03050	Proteasome
+fgr03018	RNA degradation
+fgr03030	DNA replication
+fgr03410	Base excision repair
+fgr03420	Nucleotide excision repair
+fgr03430	Mismatch repair
+fgr03440	Homologous recombination
+fgr03450	Non-homologous end-joining
+fgr03460	Fanconi anemia pathway
+fgr03082	ATP-dependent chromatin remodeling
+fgr03083	Polycomb repressive complex
+fgr03250	Viral life cycle - HIV-1
+fgr03272	Virion - Hepatitis viruses
+fgr02010	ABC transporters
+fgr04011	MAPK signaling pathway - yeast
+fgr04070	Phosphatidylinositol signaling system
+fgr04082	Neuroactive ligand signaling
+fgr04081	Hormone signaling
+fgr04517	IgSF CAM signaling
+fgr04518	Integrin signaling
+fgr04519	Cadherin signaling
+fgr04144	Endocytosis
+fgr04145	Phagosome
+fgr04142	Lysosome biogenesis
+fgr04146	Peroxisome
+fgr04138	Autophagy - yeast
+fgr04136	Autophagy - other
+fgr04139	Mitophagy - yeast
+fgr04148	Efferocytosis
+fgr04111	Cell cycle - yeast
+fgr04113	Meiosis - yeast
+fgr04814	Motor proteins
+fgr04820	Cytoskeleton in muscle cells
+fgr04620	Toll-like receptor signaling pathway
+fgr04977	Vitamin digestion and absorption
+fgr04981	Folate transport and metabolism
+fgr04382	Cornified envelope formation
+fgr05100	Bacterial invasion of epithelial cells
+fgr01501	beta-Lactam resistance

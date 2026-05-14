@@ -1,0 +1,6 @@
+contrast_id	title	tested_genes	padj_significant	deg_up	deg_down
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	10354	8495	2934	2897
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в ΔΔ: NPN vs PN	10354	8326	3067	3040
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: ΔΔ vs WT	10354	423	10	34
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: ΔΔ vs WT	10354	1202	145	101
+C5_Interaction_effect	Интеракция genotype:condition	10354	1340	148	99
