@@ -33,8 +33,11 @@
 * GEO: [GSE140030](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE140030)
 * BioProject: [PRJNA588066](https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA588066)
 * Референс генома: [Fusarium_graminearum_ph_1_gca_000240135.ASM24013v3.dna.toplevel.fa](https://ftp.ensemblgenomes.ebi.ac.uk/pub/fungi/release-62/fasta/fungi_ascomycota3_collection/fusarium_graminearum_ph_1_gca_000240135/dna/)
-* Аннотация: [Fusarium_graminearum_ph_1_gca_000240135.ASM24013v3.62.gff3](https://ftp.ensemblgenomes.ebi.ac.uk/pub/fungi/release-62/gff3/fungi_ascomycota3_collection/fusarium_graminearum_ph_1_gca_000240135/)
-* Silva
+* Аннотация: [Fusarium_graminearum_ph_1_gca_000240135.ASM240135v3.62.gff3](https://ftp.ensemblgenomes.ebi.ac.uk/pub/fungi/release-62/gff3/fungi_ascomycota3_collection/fusarium_graminearum_ph_1_gca_000240135/)
+* GO аннотация: [GCF_000240135.3_ASM24013v3_gene_ontology.gaf](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/240/135/GCF_000240135.3_ASM24013v3/)
+* Silva rRNA database:
+  * [18s](https://github.com/sortmerna/sortmerna/blob/master/data/rRNA_databases/silva-euk-18s-id95.fasta)
+  * [28s](https://github.com/sortmerna/sortmerna/blob/master/data/rRNA_databases/silva-euk-28s-id98.fasta)
 
 | Запуск | Среда | Тип |
 | ------ | ----- | --- |
@@ -52,7 +55,7 @@
 | [SRR10408688](https://www.ncbi.nlm.nih.gov/sra/SRX7106934) | NPN | &Delta;&Delta; |
 
 **Инструменты**
-* sra-toolkit (v. 3.4.1)
+* sra-toolkit (v. 3.2.1)
 ```bash
 conda install bioconda::sra-tools
 ```
@@ -60,15 +63,15 @@ conda install bioconda::sra-tools
 ```bash
 conda install bioconda::hisat2
 ```
-* bowtie2 (v. 2.5.5)
+* bowtie2 (v. 2.5.4)
 ```bash
 conda install bioconda::bowtie2
 ```
-* samtools (v. 1.23.1)
+* samtools (v. 1.21)
 ```bash
 conda install bioconda::samtools
 ```
-* fastp (v. 1.3.3)
+* fastp (v. 0.23.4)
 ```bash
 conda install bioconda::fastp
 ```
