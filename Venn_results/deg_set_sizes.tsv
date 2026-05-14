@@ -1,6 +1,0 @@
-contrast_id	title	n_deg
-C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	5831
-C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в DoubleMutant: NPN vs PN	6107
-C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: DoubleMutant vs WT	44
-C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: DoubleMutant vs WT	246
-C5_Interaction_effect	Эффект взаимодействия genotype:condition	247
