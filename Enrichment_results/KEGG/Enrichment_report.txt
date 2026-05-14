@@ -1,6 +1,0 @@
-Функциональный анализ DEG завершен.
-Использованы KEGG pathways (KEGG REST, организм fgr).
-Метод обогащения: over-representation analysis, точный критерий Фишера, поправка BH (FDR).
-Порог значимости: FDR < 0.05.
-Дополнительно выполнен enrichment для наборов из Venn_results (intersection/unique).
-Результаты сохранены в папке Enrichment_results/KEGG.

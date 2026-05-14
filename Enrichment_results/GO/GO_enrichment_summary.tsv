@@ -1,6 +1,0 @@
-contrast_id	n_input_deg	n_deg_with_go_mapping	n_significant_terms	plot_created
-C1_WT_NPN_vs_WT_PN	5831	3755	34	TRUE
-C2_DoubleMutant_NPN_vs_DoubleMutant_PN	6107	4009	35	TRUE
-C3_DoubleMutant_PN_vs_WT_PN	44	30	0	FALSE
-C4_DoubleMutant_NPN_vs_WT_NPN	246	151	11	TRUE
-C5_Interaction_effect	247	159	7	TRUE

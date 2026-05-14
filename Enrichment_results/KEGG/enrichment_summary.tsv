@@ -1,6 +1,0 @@
-contrast_id	n_deg	n_background	n_kegg_enriched_fdr_0_05
-C1_WT_NPN_vs_WT_PN	5831	10357	3
-C2_DoubleMutant_NPN_vs_DoubleMutant_PN	6107	10357	3
-C3_DoubleMutant_PN_vs_WT_PN	44	10357	0
-C4_DoubleMutant_NPN_vs_WT_NPN	246	10357	1
-C5_Interaction_effect	247	10357	4
