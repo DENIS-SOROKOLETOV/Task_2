@@ -86,3 +86,13 @@ conda install bioconda::subread
 * [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PROGRAM=blastn&PAGE_TYPE=BlastSearch&LINK_LOC=blasthome)
 
 ### **WGBS**
+
+**Инструменты**
+
+* trim-galore (v. 2.2.0)
+```bash
+conda install bioconda:trim-galore
+```
+* 
+* 
+* 
