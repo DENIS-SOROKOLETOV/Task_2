@@ -93,6 +93,9 @@ conda install bioconda::subread
 ```bash
 conda install bioconda:trim-galore
 ```
-* 
+* MethylDackel (v. 0.6.1)
+```bash
+conda install bioconda:methyldackel
+```
 * 
 * 
