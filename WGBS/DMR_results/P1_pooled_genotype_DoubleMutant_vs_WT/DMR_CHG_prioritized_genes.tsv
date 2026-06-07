@@ -1,0 +1,2 @@
+context	contrast_id	gene_id	n_dmrs	best_region	max_abs_diff	mean_abs_diff	total_priority_score	priority_rank
+CHG	P1_pooled_genotype_DoubleMutant_vs_WT	FGSG_20817	1	downstream_2kb	0.37514864060808	0.37514864060808	1052.56636384401	1

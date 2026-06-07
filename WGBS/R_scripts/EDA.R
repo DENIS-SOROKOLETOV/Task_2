@@ -101,8 +101,21 @@ if (length(sample_dirs) == 0) {
 }
 sample_dirs <- sort(sample_dirs)
 
+sample_annotation <- data.frame(
+  sample_id = c("SRR10382875", "SRR10382876", "SRR10382877", "SRR10382878"),
+  genotype = c("DeltaDelta", "DeltaDelta", "WT", "WT"),
+  condition = c("NPN", "PN", "NPN", "PN"),
+  stringsAsFactors = FALSE
+)
+
+present_samples <- intersect(sample_annotation$sample_id, sample_dirs)
+if (length(present_samples) < 2) {
+  stop("Для EDA нужно минимум 2 образца из набора SRR10382875-78.")
+}
+sample_dirs <- sample_annotation$sample_id[sample_annotation$sample_id %in% present_samples]
+
 context_summary_list <- list()
-chr_profile_list <- list()
+feature_profile_list <- list()
 
 for (sample_id in sample_dirs) {
   for (context in contexts) {
@@ -122,10 +135,12 @@ for (sample_id in sample_dirs) {
       weighted_meth_pct = stats$weighted_meth_pct,
       stringsAsFactors = FALSE
     )
-    if (context == "CpG" && nrow(stats$chr_table) > 0) {
+    if (nrow(stats$chr_table) > 0) {
       chr_df <- stats$chr_table
       chr_df$sample_id <- sample_id
-      chr_profile_list[[length(chr_profile_list) + 1]] <- chr_df
+      chr_df$context <- context
+      chr_df$feature_id <- paste(chr_df$context, chr_df$chr, sep = "|")
+      feature_profile_list[[length(feature_profile_list) + 1]] <- chr_df
     }
   }
 }
@@ -161,7 +176,7 @@ write.table(
   quote = FALSE
 )
 
-context_summary$context <- factor(context_summary$context, levels = contexts)
+context_summary$context <- factor(context_summary$context, levels = c("CHH", "CHG", "CpG"))
 plot_theme <- theme_bw(base_size = 12) + theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 
 meth_by_context_plot <- ggplot(context_summary, aes(x = context, y = weighted_meth_pct, fill = context)) +
@@ -189,12 +204,12 @@ context_summary$context_fraction <- ave(
 )
 
 context_fraction_plot <- ggplot(context_summary, aes(x = sample_id, y = context_fraction, fill = context)) +
-  geom_col(position = "stack", width = 0.75) +
+  geom_col(position = position_dodge(width = 0.8), width = 0.7) +
   scale_y_continuous(labels = function(x) paste0(round(100 * x, 1), "%")) +
   labs(
-    title = "Доля покрытия по контекстам (CpG / CHG / CHH)",
+    title = "Покрытие по контекстам",
     x = "Образец",
-    y = "Доля сайтов с покрытием",
+    y = "Доля сайтов с покрытием в контексте",
     fill = "Контекст"
   ) +
   plot_theme +
@@ -207,76 +222,106 @@ ggsave(
   dpi = 300
 )
 
-if (length(chr_profile_list) > 0) {
-  chr_profiles <- do.call(rbind, chr_profile_list)
+if (length(feature_profile_list) > 0) {
+  feature_profiles <- do.call(rbind, feature_profile_list)
   write.table(
-    chr_profiles,
-    file.path(output_dir, "cpg_methylation_by_chromosome.tsv"),
+    feature_profiles,
+    file.path(output_dir, "methylation_by_context_chromosome.tsv"),
     sep = "\t",
     row.names = FALSE,
     quote = FALSE
   )
-  chr_matrix <- reshape(
-    chr_profiles[, c("sample_id", "chr", "weighted_meth_pct")],
-    idvar = "chr",
+
+  feature_matrix <- reshape(
+    feature_profiles[, c("sample_id", "feature_id", "weighted_meth_pct")],
+    idvar = "feature_id",
     timevar = "sample_id",
     direction = "wide"
   )
-  rownames(chr_matrix) <- chr_matrix$chr
-  chr_matrix$chr <- NULL
-  chr_matrix_num <- as.matrix(chr_matrix)
-  mode(chr_matrix_num) <- "numeric"
-  chr_matrix_num[is.na(chr_matrix_num)] <- 0
-  row_var <- apply(chr_matrix_num, 1, var, na.rm = TRUE)
-  chr_matrix_num <- chr_matrix_num[row_var > 0 & !is.na(row_var), , drop = FALSE]
-  if (ncol(chr_matrix_num) >= 2 && nrow(chr_matrix_num) >= 2) {
-    cor_chr <- cor(chr_matrix_num, method = "pearson", use = "pairwise.complete.obs")
+  rownames(feature_matrix) <- feature_matrix$feature_id
+  feature_matrix$feature_id <- NULL
+  feature_matrix_num <- as.matrix(feature_matrix)
+  mode(feature_matrix_num) <- "numeric"
+  feature_matrix_num[is.na(feature_matrix_num)] <- 0
+  row_var <- apply(feature_matrix_num, 1, var, na.rm = TRUE)
+  feature_matrix_num <- feature_matrix_num[row_var > 0 & !is.na(row_var), , drop = FALSE]
+
+  if (ncol(feature_matrix_num) >= 2 && nrow(feature_matrix_num) >= 2) {
+    cor_samples <- cor(feature_matrix_num, method = "pearson", use = "pairwise.complete.obs")
     write.table(
-      cor_chr,
-      file.path(output_dir, "sample_correlation_chromosome_cpg.tsv"),
+      cor_samples,
+      file.path(output_dir, "sample_correlation_context_chr.tsv"),
       sep = "\t",
       quote = FALSE
     )
-    cor_df <- as.data.frame(as.table(cor_chr))
+
+    sample_ids <- sub("^weighted_meth_pct\\.", "", colnames(feature_matrix_num))
+    colnames(feature_matrix_num) <- sample_ids
+    sample_meta <- merge(
+      data.frame(sample_id = sample_ids, stringsAsFactors = FALSE),
+      sample_annotation,
+      by = "sample_id",
+      all.x = TRUE,
+      sort = FALSE
+    )
+    if (any(is.na(sample_meta$genotype)) || any(is.na(sample_meta$condition))) {
+      stop("Для части WGBS-образцов не удалось определить genotype/condition.")
+    }
+    sample_meta$genotype <- factor(sample_meta$genotype, levels = c("WT", "DeltaDelta"))
+    sample_meta$condition <- factor(sample_meta$condition, levels = c("PN", "NPN"))
+    rownames(sample_meta) <- sample_meta$sample_id
+
+    cor_df <- as.data.frame(as.table(cor_samples))
     colnames(cor_df) <- c("sample_1", "sample_2", "correlation")
     cor_plot <- ggplot(cor_df, aes(x = sample_1, y = sample_2, fill = correlation)) +
       geom_tile() +
-      scale_fill_gradient2(low = "#00C2FF", mid = "white", high = "#FF1744", midpoint = 0.5, limits = c(-1, 1)) +
-      labs(title = "Корреляция образцов (профиль CpG по хромосомам)", x = "", y = "", fill = "r") +
+      scale_fill_gradient2(low = "#00C2FF", mid = "#FF6B6B", high = "#FF1744", midpoint = 0.9, limits = c(0, 1)) +
+      labs(title = "Корреляция между репликатами", x = "", y = "", fill = "Корреляция") +
       plot_theme +
-      theme(axis.text.x = element_text(angle = 45, hjust = 1))
-    ggsave(file.path(output_dir, "sample_correlation_heatmap.png"), cor_plot, width = 8, height = 7, dpi = 300)
+      theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        axis.text.y = element_text(size = 9)
+      )
+    ggsave(file.path(output_dir, "replicate_correlation_heatmap.png"), cor_plot, width = 10, height = 8, dpi = 300)
+
+    euclidean_dist <- as.matrix(dist(t(feature_matrix_num), method = "euclidean"))
     pheatmap(
-      cor_chr,
-      clustering_distance_rows = as.dist(1 - cor_chr),
-      clustering_distance_cols = as.dist(1 - cor_chr),
+      euclidean_dist,
+      clustering_distance_rows = as.dist(euclidean_dist),
+      clustering_distance_cols = as.dist(euclidean_dist),
       clustering_method = "ward.D2",
-      main = "Сходство образцов (CpG по хромосомам)",
-      display_numbers = TRUE,
-      number_format = "%.2f",
+      annotation_col = sample_meta[, c("genotype", "condition"), drop = FALSE],
+      annotation_row = sample_meta[, c("genotype", "condition"), drop = FALSE],
+      main = "Евклидово расстояние между WGBS-образцами",
       fontsize = 10,
-      filename = file.path(output_dir, "sample_similarity_heatmap.png"),
-      width = 8,
-      height = 7
+      filename = file.path(output_dir, "heatmap_euclidean.png"),
+      width = 9,
+      height = 8
     )
-    pca_chr <- prcomp(t(chr_matrix_num), scale. = TRUE)
-    explained <- (pca_chr$sdev^2) / sum(pca_chr$sdev^2)
+
+    pca_chr <- prcomp(t(feature_matrix_num), scale. = TRUE)
+    explained <- (pca_chr$sdev ^ 2) / sum(pca_chr$sdev ^ 2)
     pca_df <- data.frame(
       sample_id = rownames(pca_chr$x),
       PC1 = pca_chr$x[, 1],
       PC2 = pca_chr$x[, 2],
       stringsAsFactors = FALSE
     )
-    pca_plot <- ggplot(pca_df, aes(x = PC1, y = PC2, label = sample_id)) +
-      geom_point(size = 3.5, color = "#225EA8") +
-      geom_text(vjust = -0.8, size = 3.2) +
+    pca_df <- merge(pca_df, sample_meta, by = "sample_id", all.x = TRUE, sort = FALSE)
+
+    pca_plot <- ggplot(pca_df, aes(x = PC1, y = PC2, color = condition, shape = genotype, label = sample_id)) +
+      geom_point(size = 3.3) +
+      geom_text(vjust = -0.8, size = 3.1) +
       labs(
-        title = "PCA: профиль CpG-метилирования по хромосомам",
-        x = sprintf("PC1 (%.1f%%)", explained[1] * 100),
-        y = sprintf("PC2 (%.1f%%)", explained[2] * 100)
+        title = "PCA",
+        x = sprintf("PC1 (%.2f%%)", explained[1] * 100),
+        y = sprintf("PC2 (%.2f%%)", explained[2] * 100),
+        color = "Condition",
+        shape = "Genotype"
       ) +
       plot_theme
-    ggsave(file.path(output_dir, "pca_chromosome_profile.png"), pca_plot, width = 8, height = 6, dpi = 300)
+    ggsave(file.path(output_dir, "PCA_batch_check.png"), pca_plot, width = 9, height = 7, dpi = 300)
+
     write.table(
       pca_df,
       file.path(output_dir, "pca_coordinates.tsv"),
@@ -284,10 +329,10 @@ if (length(chr_profile_list) > 0) {
       row.names = FALSE,
       quote = FALSE
     )
-    dist_chr <- dist(t(chr_matrix_num), method = "euclidean")
+    dist_chr <- dist(t(feature_matrix_num), method = "euclidean")
     hc <- hclust(dist_chr, method = "ward.D2")
-    png(file.path(output_dir, "hierarchical_clustering.png"), width = 1200, height = 800, res = 150)
-    plot(hc, main = "Иерархическая кластеризация образцов", xlab = "", sub = "")
+    png(file.path(output_dir, "hierarchical_clustering.png"), width = 1300, height = 900, res = 150)
+    plot(hc, main = "Иерархическая кластеризация образцов", xlab = "", sub = "", cex = 0.9, font.main = 2)
     dev.off()
   }
 }

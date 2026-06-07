@@ -1,0 +1,39 @@
+Стратегия поиска DMR (согласована с контрастами RNA-seq DE):
+
+Образцы WGBS (факторный дизайн 2x2, по 1 образцу на ячейку):
+  SRR10382875: DoubleMutant, NPN
+  SRR10382876: DoubleMutant, PN
+  SRR10382877: WT, NPN
+  SRR10382878: WT, PN
+
+Контрасты C1-C4 (аналоги DEG, method=pairwise, n=1 vs n=1):
+  C1: WT NPN vs WT PN (SRR10382877 vs SRR10382878)
+  C2: DoubleMutant NPN vs PN (SRR10382875 vs SRR10382876)
+  C3: DoubleMutant vs WT в PN (SRR10382876 vs SRR10382878)
+  C4: DoubleMutant vs WT в NPN (SRR10382875 vs SRR10382877)
+  Для C1-C4: site-level z-test пропорций, diff = group1 - group2, затем callDMR.
+  Ограничение: без биологических реплик p-value носят exploratory-характер.
+
+Контрасты P1-P2 (pooled, method=replicated, n=2 vs n=2, DSS beta-binomial):
+  P1: pooled генотип DoubleMutant vs WT ({75,76} vs {77,78})
+  P2: pooled среда NPN vs PN ({75,77} vs {76,78})
+  Ограничение: в pooled-сравнениях смешаны уровни второго фактора.
+
+C5 (интеракция genotype:condition): не выполняется — 4 обение: без биологических реплик p-value носят exploratory-характер.
+
+Контрасты P1-P2 (pooled, method=pooled, суммирование счётчиков 2 vs 2, z-test + callDMR):
+  P1: pooled генотип DoubleMutant vs WT ({75,76} vs {77,78})
+  P2: pooled среда NPN vs PN ({75,77} vs {76,78})
+  Ограничение: в pooled-сравнениях смешаны уровни второго фактора.
+
+C5 (интеракция genotype:condition): не выполняется — 4 образца, 4 ячейки дизайна, нет степеней свободы.
+
+Пороги callDMR (CpG и CHG): покрытие >= 3, p <= 0.05, |delta| >= 0.05, длина >= 30 п.н.,
+  минимум 2 сайта, merge distance = 200, минимум 30% значимых сайтов в регионе.
+
+Границы геномных областей:
+  promoter: -2000..+500 от TSS; gene_body: по GFF3; downstream_2kb: 0..2000 после 3'-конца; intergenic: без пересечений.
+
+Ассоциация DMR с генами: все пересекающиеся гены; primary_region по приоритету promoter > gene_body > downstream_2kb > intergenic.
+
+Приоритизация генов: score = region_score*1000 + |diff|*100 + log10(width+1)*10; суммирование по DMR внутри contrast_id и context.

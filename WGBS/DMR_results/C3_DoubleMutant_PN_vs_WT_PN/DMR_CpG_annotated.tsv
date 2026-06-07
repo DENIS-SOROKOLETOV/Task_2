@@ -1,0 +1,3 @@
+chr	start	end	length	nCG	meanMethy1	meanMethy2	diff.Methy	areaStat	context	contrast_id	contrast_title	method	group1_samples	group2_samples	dmr_id	primary_region	associated_genes	n_associated_genes
+supercont3.32	28943	29024	82	19	0.0139224996726062	0.117570682676895	-0.103648183004289	-69.8526762501365	CpG	C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: ΔΔ vs WT	pairwise	SRR10382876	SRR10382878	CpG_C3_DoubleMutant_PN_vs_WT_PN_DMR_1	intergenic		0
+DS231675	11261	11310	50	9	0.0165551766921659	0.170087061381015	-0.153531884688849	-30.1785103489285	CpG	C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: ΔΔ vs WT	pairwise	SRR10382876	SRR10382878	CpG_C3_DoubleMutant_PN_vs_WT_PN_DMR_2	promoter	FGSG_20818;FGSG_20819;FGSG_20820;FGSG_20821	4

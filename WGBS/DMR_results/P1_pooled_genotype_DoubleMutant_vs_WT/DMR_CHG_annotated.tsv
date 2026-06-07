@@ -1,0 +1,2 @@
+chr	start	end	length	nCG	meanMethy1	meanMethy2	diff.Methy	areaStat	context	contrast_id	contrast_title	method	group1_samples	group2_samples	dmr_id	primary_region	associated_genes	n_associated_genes
+DS231675	5171	5201	31	3	0.000205695454630309	0.37535433606271	-0.37514864060808	-11.1131254489276	CHG	P1_pooled_genotype_DoubleMutant_vs_WT	Pooled эффект генотипа: ΔΔ vs WT (PN+NPN)	replicated	SRR10382875;SRR10382876	SRR10382877;SRR10382878	CHG_P1_pooled_genotype_DoubleMutant_vs_WT_DMR_1	downstream_2kb	FGSG_20817	1

@@ -1,0 +1,2 @@
+context	gene_id	n_dmrs	best_region	max_abs_diff	mean_abs_diff	total_priority_score	priority_rank
+CHG	FGSG_10766	2	gene_body	0.0875999186870359	0.0875999186870359	4056.45260659629	1

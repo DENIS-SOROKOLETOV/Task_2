@@ -1,0 +1,3 @@
+chr	start	end	length	nCG	meanMethy1	meanMethy2	diff.Methy	areaStat	context	contrast_id	contrast_title	method	group1_samples	group2_samples	dmr_id
+supercont3.32	28987	29024	38	7	0.0157424812030075	0.137271503624725	-0.121529022421717	-15.4930313218238	CpG	C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	pairwise	SRR10382877	SRR10382878	CpG_C1_WT_NPN_vs_WT_PN_DMR_1
+DS231675	11261	11310	50	9	0.00317460317460317	0.170087061381015	-0.166912458206412	-14.696210104927	CpG	C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	pairwise	SRR10382877	SRR10382878	CpG_C1_WT_NPN_vs_WT_PN_DMR_2

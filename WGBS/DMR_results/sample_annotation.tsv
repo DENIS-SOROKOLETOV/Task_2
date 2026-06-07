@@ -1,0 +1,5 @@
+sample_id	genotype	condition
+SRR10382875	DoubleMutant	NPN
+SRR10382876	DoubleMutant	PN
+SRR10382877	WT	NPN
+SRR10382878	WT	PN

@@ -1,0 +1,13 @@
+contrast_id	contrast_title	method	context	group1_samples	group2_samples	n_dmrs
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	pairwise	CpG	SRR10382877	SRR10382878	2
+C1_WT_NPN_vs_WT_PN	Эффект среды в WT: NPN vs PN	pairwise	CHG	SRR10382877	SRR10382878	1
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в ΔΔ: NPN vs PN	pairwise	CpG	SRR10382875	SRR10382876	0
+C2_DoubleMutant_NPN_vs_DoubleMutant_PN	Эффект среды в ΔΔ: NPN vs PN	pairwise	CHG	SRR10382875	SRR10382876	0
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: ΔΔ vs WT	pairwise	CpG	SRR10382876	SRR10382878	2
+C3_DoubleMutant_PN_vs_WT_PN	Эффект генотипа в PN: ΔΔ vs WT	pairwise	CHG	SRR10382876	SRR10382878	0
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: ΔΔ vs WT	pairwise	CpG	SRR10382875	SRR10382877	0
+C4_DoubleMutant_NPN_vs_WT_NPN	Эффект генотипа в NPN: ΔΔ vs WT	pairwise	CHG	SRR10382875	SRR10382877	0
+P1_pooled_genotype_DoubleMutant_vs_WT	Pooled эффект генотипа: ΔΔ vs WT (PN+NPN)	replicated	CpG	SRR10382875;SRR10382876	SRR10382877;SRR10382878	0
+P1_pooled_genotype_DoubleMutant_vs_WT	Pooled эффект генотипа: ΔΔ vs WT (PN+NPN)	replicated	CHG	SRR10382875;SRR10382876	SRR10382877;SRR10382878	1
+P2_pooled_condition_NPN_vs_PN	Pooled эффект среды: NPN vs PN (WT+ΔΔ)	replicated	CpG	SRR10382875;SRR10382877	SRR10382876;SRR10382878	0
+P2_pooled_condition_NPN_vs_PN	Pooled эффект среды: NPN vs PN (WT+ΔΔ)	replicated	CHG	SRR10382875;SRR10382877	SRR10382876;SRR10382878	0

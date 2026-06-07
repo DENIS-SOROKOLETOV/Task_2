@@ -1,0 +1,5 @@
+sample	chh_weighted_methylation_percent	conversion_efficiency_chh_percent	cpg_weighted_methylation_percent	conversion_efficiency_cpg_percent
+SRR10382875	0.597446	99.402554	0.610070	99.389930
+SRR10382876	0.651782	99.348218	0.683648	99.316352
+SRR10382877	0.642616	99.357384	0.662132	99.337868
+SRR10382878	1.352500	98.647500	1.493275	98.506725

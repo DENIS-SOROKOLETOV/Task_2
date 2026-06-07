@@ -18,6 +18,8 @@ for suffix in 75 76 77 78; do
   -o "${OUTPUT}/${s}/${s}" \
   --CHG \
   --CHH \
+  --nOT 5,5,5,5 \
+  --nOB 5,5,5,5 \
   -@ "${THREADS}" \
   > "${OUTPUT}/${s}/methyldackel.log" 2>&1
 done

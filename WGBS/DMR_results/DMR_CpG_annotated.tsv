@@ -1,0 +1,2 @@
+chr	start	end	length	nCG	meanMethy1	meanMethy2	diff.Methy	areaStat	context	dmr_id	primary_region	associated_genes	n_associated_genes
+4	42588	42695	108	19	0.0114991603922414	0.123850582800394	-0.112351422408152	-149.610100615512	CpG	CpG_DMR_1	gene_body	FGSG_06438	1
